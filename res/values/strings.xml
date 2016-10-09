@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">E-instrument</string>
+    <string name="hello">Electronic Music Instrument</string>
+    <string name="action_settings">Settings</string>
+    <string name="duo">Duo</string>
+    <string name="re">Re</string>
+    <string name="mi">Mi</string>
+    <string name="fa">Fa</string>
+    <string name="sol">Sol</string>
+    <string name="la">La</string>
+    <string name="si">Si</string>
+    <string name="record_sound">Record Sound</string>
+    <string name="stop_record">Stop Record</string>
+    <string name="load">Load Sound</string>
+    <string name="about">About</string>
+    <string name="about_developer">Developed by Jin Qu.</string>
+    <string name="about_version">Version: 6.1.0</string>
+    <string name="another_option">Other Sound</string>
+    <string name="piano_option">Piano</string>
+    <string name="setting_title_string">Please pick one instrument: </string>
+    <string name="guitar">Guitar</string>
+    <string name="flute">Flute</string>
+    <string name="violin">Violin</string>
+    <string name="delete_sound">Do you really want to delete this sound?</string>
+    <string name="multiple_touch">Multiple touch</string>
+</resources>

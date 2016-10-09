@@ -1,0 +1,182 @@
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"   
+        android:orientation="vertical"
+        tools:context="com.lge.e_instrument.PianoActivity" >
+     
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/hello"
+                ></TextView>
+            <CheckBox 
+                android:id="@+id/multiple_touch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="end"
+                android:text="@string/multiple_touch"
+                />
+                   
+        </LinearLayout>
+        
+        <ImageView
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:src="@drawable/header"
+            android:scaleType="fitXY"
+            android:paddingTop="10dp"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <AbsoluteLayout
+            android:id="@+id/keys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="0dp" >
+
+            <ImageButton
+                android:id="@+id/duo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/duo1" />
+
+            <ImageButton
+                android:id="@+id/re"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"               
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/re1" />
+
+            <ImageButton
+                android:id="@+id/mi"
+                android:layout_width="wrap_content"                
+                android:layout_height="match_parent"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mi1" />
+
+            <ImageButton
+                android:id="@+id/fa"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/fa1" />
+
+            <ImageButton
+                android:id="@+id/sol"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sol1" />
+
+            <ImageButton
+                android:id="@+id/la"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/la1" />
+
+            <ImageButton
+                android:id="@+id/si"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/si1" />
+
+            <ImageButton
+                android:id="@+id/hduo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/hduo1" />
+
+            <ImageButton
+                android:id="@+id/black1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_y="0dp"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/black1" />
+
+            <ImageButton
+                android:id="@+id/black2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0px"
+                android:layout_y="0dp"
+                android:padding="0px"
+                android:scaleType="fitXY"
+                android:src="@drawable/black2" />
+
+            <ImageButton
+                android:id="@+id/black3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0px"
+                android:layout_y="0dp"
+                android:padding="0px"
+                android:scaleType="fitXY"
+                android:src="@drawable/black3" />
+
+            <ImageButton
+                android:id="@+id/black4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0px"
+                android:layout_y="0dp"
+                android:padding="0px"
+                android:scaleType="fitXY"
+                android:src="@drawable/black4" />
+
+            <ImageButton
+                android:id="@+id/black5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:layout_margin="0px"
+                android:layout_y="0dp"
+                android:padding="0px"
+                android:scaleType="fitXY"
+                android:src="@drawable/black5" />
+
+            
+
+        </AbsoluteLayout>
+
+    </LinearLayout>
+    

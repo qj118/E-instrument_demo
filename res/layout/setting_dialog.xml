@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_sound"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+    <RadioButton
+        android:id="@+id/guitar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guitar"
+        android:checked="true"
+        />
+    
+    <RadioButton
+        android:id="@+id/flute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flute"
+        />
+    
+    <RadioButton
+        android:id="@+id/violin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/violin"
+        />
+    
+    </RadioGroup>
+    
+
